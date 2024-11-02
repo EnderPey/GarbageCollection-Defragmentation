@@ -1,0 +1,486 @@
+
+duInitMalloc
+MEMORY DUMP
+Current Heap: 0
+Free at 0x6464a23dc060, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc060, size 1000
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+
+duMalloc a0
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 64 
+Free at 0x6464a23dc0b8, size 912 
+AAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc0b8, size 912
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc078, Has been moved 0 times
+
+duMalloc a1
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Free at 0x6464a23dc100, size 840 
+AAAAAAAABBBBBBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc100, size 840
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc078, Has been moved 0 times
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+
+Memory access is: Denver
+
+duMalloc a2
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Free at 0x6464a23dc158, size 752 
+AAAAAAAABBBBBBCCCCCCCCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc158, size 752
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc078, Has been moved 0 times
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+
+duMalloc a3
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Used at 0x6464a23dc158, size 24 
+Free at 0x6464a23dc188, size 704 
+AAAAAAAABBBBBBCCCCCCCCDDDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc188, size 704
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc078, Has been moved 0 times
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+ManagedList[3] = 0x6464a23dc170, Has been moved 0 times
+
+duMalloc a4
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Used at 0x6464a23dc158, size 24 
+Used at 0x6464a23dc188, size 88 
+Free at 0x6464a23dc1f8, size 592 
+AAAAAAAABBBBBBCCCCCCCCDDDEEEEEEEEEEEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc1f8, size 592
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc078, Has been moved 0 times
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+ManagedList[3] = 0x6464a23dc170, Has been moved 0 times
+ManagedList[4] = 0x6464a23dc1a0, Has been moved 0 times
+
+duMalloc a5
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Used at 0x6464a23dc158, size 24 
+Used at 0x6464a23dc188, size 88 
+Used at 0x6464a23dc1f8, size 80 
+Free at 0x6464a23dc260, size 488 
+AAAAAAAABBBBBBCCCCCCCCDDDEEEEEEEEEEEFFFFFFFFFFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc260, size 488
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc078, Has been moved 0 times
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+ManagedList[3] = 0x6464a23dc170, Has been moved 0 times
+ManagedList[4] = 0x6464a23dc1a0, Has been moved 0 times
+ManagedList[5] = 0x6464a23dc210, Has been moved 0 times
+
+duFree a0
+MEMORY DUMP
+Current Heap: 0
+Free at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Used at 0x6464a23dc158, size 24 
+Used at 0x6464a23dc188, size 88 
+Used at 0x6464a23dc1f8, size 80 
+Free at 0x6464a23dc260, size 488 
+aaaaaaaaAAAAAABBBBBBBBCCCDDDDDDDDDDDEEEEEEEEEEbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Free List
+Free block at 0x6464a23dc060, size 64
+Free block at 0x6464a23dc260, size 488
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+ManagedList[3] = 0x6464a23dc170, Has been moved 0 times
+ManagedList[4] = 0x6464a23dc1a0, Has been moved 0 times
+ManagedList[5] = 0x6464a23dc210, Has been moved 0 times
+
+duFree a3
+MEMORY DUMP
+Current Heap: 0
+Free at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Free at 0x6464a23dc158, size 24 
+Used at 0x6464a23dc188, size 88 
+Used at 0x6464a23dc1f8, size 80 
+Free at 0x6464a23dc260, size 488 
+aaaaaaaaAAAAAABBBBBBBBbbbCCCCCCCCCCCDDDDDDDDDDccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+Free List
+Free block at 0x6464a23dc060, size 64
+Free block at 0x6464a23dc158, size 24
+Free block at 0x6464a23dc260, size 488
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc1a0, Has been moved 0 times
+ManagedList[5] = 0x6464a23dc210, Has been moved 0 times
+
+duMalloc a6
+MEMORY DUMP
+Current Heap: 0
+Free at 0x6464a23dc060, size 64 
+Used at 0x6464a23dc0b8, size 48 
+Used at 0x6464a23dc100, size 64 
+Free at 0x6464a23dc158, size 24 
+Used at 0x6464a23dc188, size 88 
+Used at 0x6464a23dc1f8, size 80 
+Used at 0x6464a23dc260, size 160 
+Free at 0x6464a23dc318, size 304 
+aaaaaaaaAAAAAABBBBBBBBbbbCCCCCCCCCCCDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEcccccccccccccccccccccccccccccccccccccc
+Free List
+Free block at 0x6464a23dc060, size 64
+Free block at 0x6464a23dc158, size 24
+Free block at 0x6464a23dc318, size 304
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc0d0, Has been moved 0 times
+ManagedList[2] = 0x6464a23dc118, Has been moved 0 times
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc1a0, Has been moved 0 times
+ManagedList[5] = 0x6464a23dc210, Has been moved 0 times
+ManagedList[6] = 0x6464a23dc278, Has been moved 0 times
+
+********* MINOR COLLECTION ***********
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 48 
+Used at 0x6464a23dc4a8, size 64 
+Used at 0x6464a23dc500, size 88 
+Used at 0x6464a23dc570, size 80 
+Used at 0x6464a23dc5d8, size 160 
+Free at 0x6464a23dc690, size 464 
+AAAAAABBBBBBBBCCCCCCCCCCCDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc690, size 464
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc478, Has been moved 1 times
+ManagedList[2] = 0x6464a23dc4c0, Has been moved 1 times
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc518, Has been moved 1 times
+ManagedList[5] = 0x6464a23dc588, Has been moved 1 times
+ManagedList[6] = 0x6464a23dc5f0, Has been moved 1 times
+
+Memory access is: Denver
+
+duFree a2
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 48 
+Free at 0x6464a23dc4a8, size 64 
+Used at 0x6464a23dc500, size 88 
+Used at 0x6464a23dc570, size 80 
+Used at 0x6464a23dc5d8, size 160 
+Free at 0x6464a23dc690, size 464 
+AAAAAAaaaaaaaaBBBBBBBBBBBCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Free List
+Free block at 0x6464a23dc4a8, size 64
+Free block at 0x6464a23dc690, size 464
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc478, Has been moved 1 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc518, Has been moved 1 times
+ManagedList[5] = 0x6464a23dc588, Has been moved 1 times
+ManagedList[6] = 0x6464a23dc5f0, Has been moved 1 times
+
+duMalloc a7
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 48 
+Used at 0x6464a23dc4a8, size 16 
+Free at 0x6464a23dc4d0, size 24 
+Used at 0x6464a23dc500, size 88 
+Used at 0x6464a23dc570, size 80 
+Used at 0x6464a23dc5d8, size 160 
+Free at 0x6464a23dc690, size 464 
+AAAAAABBaaaCCCCCCCCCCCDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Free List
+Free block at 0x6464a23dc4d0, size 24
+Free block at 0x6464a23dc690, size 464
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc478, Has been moved 1 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc518, Has been moved 1 times
+ManagedList[5] = 0x6464a23dc588, Has been moved 1 times
+ManagedList[6] = 0x6464a23dc5f0, Has been moved 1 times
+ManagedList[7] = 0x6464a23dc4c0, Has been moved 0 times
+
+********* MINOR COLLECTION ***********
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 48 
+Used at 0x6464a23dc0a8, size 88 
+Used at 0x6464a23dc118, size 80 
+Used at 0x6464a23dc180, size 160 
+Used at 0x6464a23dc238, size 16 
+Free at 0x6464a23dc260, size 512 
+AAAAAABBBBBBBBBBBCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDEEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc260, size 512
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc078, Has been moved 2 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc0c0, Has been moved 2 times
+ManagedList[5] = 0x6464a23dc130, Has been moved 2 times
+ManagedList[6] = 0x6464a23dc198, Has been moved 2 times
+ManagedList[7] = 0x6464a23dc250, Has been moved 1 times
+
+duMalloc a8
+MEMORY DUMP
+Current Heap: 0
+Used at 0x6464a23dc060, size 48 
+Used at 0x6464a23dc0a8, size 88 
+Used at 0x6464a23dc118, size 80 
+Used at 0x6464a23dc180, size 160 
+Used at 0x6464a23dc238, size 16 
+Used at 0x6464a23dc260, size 56 
+Free at 0x6464a23dc2b0, size 432 
+AAAAAABBBBBBBBBBBCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDEEFFFFFFFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc2b0, size 432
+Old Heap
+Free at 0x6464a23dc860, size 1000 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc860, size 1000
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc078, Has been moved 2 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc0c0, Has been moved 2 times
+ManagedList[5] = 0x6464a23dc130, Has been moved 2 times
+ManagedList[6] = 0x6464a23dc198, Has been moved 2 times
+ManagedList[7] = 0x6464a23dc250, Has been moved 1 times
+ManagedList[8] = 0x6464a23dc278, Has been moved 0 times
+
+********* MINOR COLLECTION ***********
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 16 
+Used at 0x6464a23dc488, size 56 
+Free at 0x6464a23dc4d8, size 904 
+AABBBBBBBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc4d8, size 904
+Old Heap
+Used at 0x6464a23dc860, size 48 
+Used at 0x6464a23dc8a8, size 88 
+Used at 0x6464a23dc918, size 80 
+Used at 0x6464a23dc980, size 160 
+Free at 0x6464a23dca38, size 528 
+AAAAAABBBBBBBBBBBCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dca38, size 528
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc878, Has been moved 3 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = 0x6464a23dc8c0, Has been moved 3 times
+ManagedList[5] = 0x6464a23dc930, Has been moved 3 times
+ManagedList[6] = 0x6464a23dc998, Has been moved 3 times
+ManagedList[7] = 0x6464a23dc478, Has been moved 2 times
+ManagedList[8] = 0x6464a23dc4a0, Has been moved 1 times
+
+duFree a4
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 16 
+Used at 0x6464a23dc488, size 56 
+Free at 0x6464a23dc4d8, size 904 
+AABBBBBBBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc4d8, size 904
+Old Heap
+Used at 0x6464a23dc860, size 48 
+Free at 0x6464a23dc8a8, size 88 
+Used at 0x6464a23dc918, size 80 
+Used at 0x6464a23dc980, size 160 
+Free at 0x6464a23dca38, size 528 
+AAAAAAaaaaaaaaaaaBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Free List
+Free block at 0x6464a23dc8a8, size 88
+Free block at 0x6464a23dca38, size 528
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc878, Has been moved 3 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = (nil)
+ManagedList[5] = 0x6464a23dc930, Has been moved 3 times
+ManagedList[6] = 0x6464a23dc998, Has been moved 3 times
+ManagedList[7] = 0x6464a23dc478, Has been moved 2 times
+ManagedList[8] = 0x6464a23dc4a0, Has been moved 1 times
+
+duFree a5
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 16 
+Used at 0x6464a23dc488, size 56 
+Free at 0x6464a23dc4d8, size 904 
+AABBBBBBBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc4d8, size 904
+Old Heap
+Used at 0x6464a23dc860, size 48 
+Free at 0x6464a23dc8a8, size 88 
+Free at 0x6464a23dc918, size 80 
+Used at 0x6464a23dc980, size 160 
+Free at 0x6464a23dca38, size 528 
+AAAAAAaaaaaaaaaaabbbbbbbbbbBBBBBBBBBBBBBBBBBBBBcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+Free List
+Free block at 0x6464a23dc8a8, size 88
+Free block at 0x6464a23dc918, size 80
+Free block at 0x6464a23dca38, size 528
+Managed Memory Dump
+ManagedList[0] = (nil)
+ManagedList[1] = 0x6464a23dc878, Has been moved 3 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = (nil)
+ManagedList[5] = (nil)
+ManagedList[6] = 0x6464a23dc998, Has been moved 3 times
+ManagedList[7] = 0x6464a23dc478, Has been moved 2 times
+ManagedList[8] = 0x6464a23dc4a0, Has been moved 1 times
+
+********* MAJOR COLLECTION ***********
+MEMORY DUMP
+Current Heap: 1
+Used at 0x6464a23dc460, size 16 
+Used at 0x6464a23dc488, size 56 
+Free at 0x6464a23dc4d8, size 904 
+AABBBBBBBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc4d8, size 904
+Old Heap
+Used at 0x6464a23dc860, size 48 
+Used at 0x6464a23dc8a8, size 160 
+Free at 0x6464a23dc960, size 744 
+AAAAAABBBBBBBBBBBBBBBBBBBBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Free List
+Free block at 0x6464a23dc960, size 744
+Managed Memory Dump
+ManagedList[0] = 0x6464a23dc8a8, Has been moved 0 times
+ManagedList[1] = 0x6464a23dc878, Has been moved 3 times
+ManagedList[2] = (nil)
+ManagedList[3] = (nil)
+ManagedList[4] = (nil)
+ManagedList[5] = (nil)
+ManagedList[6] = 0x6464a23dc998, Has been moved 3 times
+ManagedList[7] = 0x6464a23dc478, Has been moved 2 times
+ManagedList[8] = 0x6464a23dc4a0, Has been moved 1 times
+
+Memory access is: Denver
