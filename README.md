@@ -18,7 +18,7 @@ Throughout the development of this project, I gained significant insights and sk
 1. **Understanding of Memory Management**: Deepened my understanding of dynamic memory allocation and the challenges associated with fragmentation and garbage collection.
 2. **Algorithmic Design**: Improved my ability to design algorithms for memory allocation and compaction, considering performance trade-offs and efficiency.
 3. **Debugging Skills**: Enhanced my debugging skills through the implementation of memory dump functionalities and systematic testing of allocation and deallocation operations.
-4. **Programming Proficiency**: Strengthened my proficiency in C/C++ programming, particularly in the context of systems programming and low-level memory management.
+4. **Programming Proficiency**: Strengthened my proficiency in C programming, particularly in the context of systems programming and low-level memory management.
 5. **Project Structuring and Documentation**: Learned the importance of structuring a project effectively and documenting my code for clarity and maintainability.
 
 ## Versions
