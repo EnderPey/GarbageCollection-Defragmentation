@@ -11,10 +11,20 @@ This project implements a managed memory allocator, focusing on efficient memory
 - **Major and Minor Collection Functions**: Created `majorCollection` and `minorCollection` functions to perform memory compaction, consolidating used blocks and relocating them within the heap.
 - **Memory Dump Enhancements**: Improved memory dump functionalities to inspect free lists and track memory access, ensuring effective debugging and validation.
 
+## Learning Outcomes
+
+Throughout the development of this project, I gained significant insights and skills, including:
+
+1. **Understanding of Memory Management**: Deepened my understanding of dynamic memory allocation and the challenges associated with fragmentation and garbage collection.
+2. **Algorithmic Design**: Improved my ability to design algorithms for memory allocation and compaction, considering performance trade-offs and efficiency.
+3. **Debugging Skills**: Enhanced my debugging skills through the implementation of memory dump functionalities and systematic testing of allocation and deallocation operations.
+4. **Programming Proficiency**: Strengthened my proficiency in C/C++ programming, particularly in the context of systems programming and low-level memory management.
+5. **Project Structuring and Documentation**: Learned the importance of structuring a project effectively and documenting my code for clarity and maintainability.
+
 ## Versions
 
 ### Version 1: Enhanced Memory Management
-- **Functionality**: Improved memory allocation strategies by implementing `best_fit` alongside `first_fit`.
+- **Functionality**: Improved memory allocation strategies by implementing `BEST_FIT` alongside `FIRST_FIT`.
 - **Memory Dump**: Enhanced the `duMemoryDump` function for more detailed information about memory blocks.
 - **Block Tracking**: Introduced a structure to track block usage and sizes, aiding in memory management and debugging.
 
@@ -30,17 +40,6 @@ This project implements a managed memory allocator, focusing on efficient memory
 - **Old Generation Heap**: Introduced an 'old' generation heap for improved memory management of older objects.
 - **In-Place Compaction**: Enhanced the `duFree` function to effectively manage memory from both young and old heaps.
 - **Enhanced Minor Collection**: Updated the `minorCollection` function to better manage the survival count for blocks, refining memory management strategies.
-
-
-## Learning Outcomes
-
-Throughout the development of this project, I gained significant insights and skills, including:
-
-1. **Understanding of Memory Management**: Deepened my understanding of dynamic memory allocation and the challenges associated with fragmentation and garbage collection.
-2. **Algorithmic Design**: Improved my ability to design algorithms for memory allocation and compaction, considering performance trade-offs and efficiency.
-3. **Debugging Skills**: Enhanced my debugging skills through the implementation of memory dump functionalities and systematic testing of allocation and deallocation operations.
-4. **Programming Proficiency**: Strengthened my proficiency in C/C++ programming, particularly in the context of systems programming and low-level memory management.
-5. **Project Structuring and Documentation**: Learned the importance of structuring a project effectively and documenting my code for clarity and maintainability.
 
 ## Usage
 
