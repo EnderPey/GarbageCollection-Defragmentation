@@ -2,7 +2,7 @@
 
 ## Overview
 
-This class project implements a toy managed memory allocator, focusing on efficient memory management through garbage collection techniques. The primary goal is to design a system that minimizes fragmentation, maximizes performance, and simplifies memory management for client applications. The main goals of this project were to learn how memory works on a low level and stregthen my proficiency in C. Written by myself for the University of Denver Systems 1 course.
+This class project implements a toy managed memory allocator, focusing on efficient memory management through garbage collection techniques. The primary goal is to design a system that minimizes fragmentation, maximizes performance, and simplifies memory management for client applications. The main goals of this project were to learn how memory management works on a low level and to stregthen my proficiency in C. Written by myself for the University of Denver Systems 1 course.
 
 ### Key Features
 
@@ -43,5 +43,5 @@ Throughout the development of this project, I gained significant insights and sk
 
 ## Usage
 
-To use the memory allocator, include the header files and link against the provided implementation. The testing scripts demonstrate allocation and deallocation, including major and minor garbage collection processes. Ensure to run tests to validate functionality and performance metrics.
+To use the memory allocator, include the header files and link against the provided implementation. The testing scripts demonstrate allocation and deallocation, including major and minor garbage collection processes. 
 
