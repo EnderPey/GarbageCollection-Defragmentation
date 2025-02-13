@@ -24,8 +24,8 @@ Throughout the development of this project, I gained significant insights and sk
 ## Versions
 
 ### Version 1: Enhanced Memory Management
-- **Functionality**: Improved memory allocation strategies by implementing `BEST_FIT` alongside `FIRST_FIT`.
-- **Memory Dump**: Enhanced the `duMemoryDump` function for more detailed information about memory blocks.
+- **Functionality**: Utilized different memory allocation strategies by implementing `BEST_FIT` alongside `FIRST_FIT`.
+- **Memory Dump**: Wrote the `duMemoryDump` function for more detailed information about memory blocks.
 - **Block Tracking**: Introduced a structure to track block usage and sizes, aiding in memory management and debugging.
 
 ### Version 2: Managed Pointer System
